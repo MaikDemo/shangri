@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="auth" content="Maikol Valdivia"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Shangri Lá Ramen</title>
+    <meta name="description" content="Aqui va la descripcion de la pagina"/>
+    <meta name="keywords" content=""/>
+    <meta name="theme-color" content="#000000"/>
+    <link rel="icon" href="media/favicon.png" type="image/png"/>
+  </head>
+  <body>
+    <div class="headerdishes">
+      <p>Ramen</p>
+    </div>
+    <div class="container">
+      <div class="dishes">
+        <!-- TODO: * Modificar el | INCLUDE | y la variable de objetos-->
+        <div class="dishes__plate"><a class="dishes__link" href="sopa_ramen.html">
+            <picture class="dishes__picture"><img class="dishes__img" alt="sopa_ramen" srcset="./media/ramen/thumbnail/sopa_ramen-thumbnail.png" loading="lazy"/></picture></a>
+          <div class="dishes__name"><span class="dishes__text">Sopa Ramen</span><span class="dishes__price">Bs 49</span>
+          </div>
+        </div>
+        <div class="dishes__plate"><a class="dishes__link" href="ramen_shangri_la.html">
+            <picture class="dishes__picture"><img class="dishes__img" alt="ramen_shangri_la" srcset="./media/ramen/thumbnail/bolsas_doradas-thumbnail.png" loading="lazy"/></picture></a>
+          <div class="dishes__name"><span class="dishes__text">Ramen Shangri La</span><span class="dishes__price">Bs 59</span>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="btn"><a class="btn__link" href="index.html"><img class="btn__img" src="media/back_button.svg" alt="btn-atras"/></a></div>
+    <div id="preloading">
+      <div class="load"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
